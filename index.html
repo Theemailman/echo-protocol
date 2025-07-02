@@ -30,7 +30,28 @@
         <a href="#contact" class="hover:text-indigo-400">Contact</a>
       </div>
     </div>
-  </nav>
+ </nav>
+
+  </STYLE>/* Slight glow on hover for song blocks */
+section.bg-yellow-100:hover {
+  box-shadow: 0 0 15px rgba(251, 191, 36, 0.6); /* warm yellow glow */
+  transition: box-shadow 0.3s ease;
+}
+
+/* Warmer hover for archive song list items */
+section ul li:hover {
+  background-color: rgba(251, 191, 36, 0.2); /* faint yellow highlight */
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Slight softening of the italic song subtitle */
+h2.italic {
+  font-style: italic;
+  font-weight: 600;
+  color: #b45309; /* a bit deeper golden-yellow */
+}
 
  <section class="bg-yellow-100 border-b-4 border-yellow-400 shadow-md py-6 px-6 sm:px-8 mb-8">
   <div class="max-w-4xl mx-auto text-center">
